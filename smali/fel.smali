@@ -1,0 +1,144 @@
+.class public final Lfel;
+.super Lfay;
+.source "SourceFile"
+
+
+# static fields
+.field public static final serialVersionUID:J = 0x1L
+
+
+# instance fields
+.field public final a:Z
+
+
+# direct methods
+.method constructor <init>(Lmfl;)V
+    .locals 4
+
+    .prologue
+    const/4 v1, 0x1
+
+    .line 1794
+    iget-object v0, p1, Lmfl;->responseHeader:Lmey;
+
+    const-wide/16 v2, -0x1
+
+    invoke-direct {p0, p1, v0, v2, v3}, Lfay;-><init>(Lpbn;Lmey;J)V
+
+    .line 1795
+    iget-object v0, p1, Lmfl;->a:Ljava/lang/Integer;
+
+    if-eqz v0, :cond_0
+
+    .line 1796
+    iget-object v0, p1, Lmfl;->a:Ljava/lang/Integer;
+
+    invoke-static {v0}, Lacn;->a(Ljava/lang/Integer;)I
+
+    move-result v0
+
+    .line 1797
+    if-ne v0, v1, :cond_0
+
+    .line 1798
+    iput-boolean v1, p0, Lfel;->a:Z
+
+    .line 1803
+    :goto_0
+    return-void
+
+    .line 1802
+    :cond_0
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lfel;->a:Z
+
+    goto :goto_0
+.end method
+
+
+# virtual methods
+.method public a(Landroid/content/Context;Lbju;)V
+    .locals 4
+
+    .prologue
+    const/4 v3, 0x0
+
+    .line 1807
+    iget-boolean v0, p0, Lfel;->a:Z
+
+    if-eqz v0, :cond_1
+
+    .line 1808
+    const-string v0, "Babel"
+
+    const-string v1, "Client is invalid. Retry registration"
+
+    new-array v2, v3, [Ljava/lang/Object;
+
+    invoke-static {v0, v1, v2}, Lgpm;->c(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+
+    .line 1809
+    const-class v0, Lfrw;
+
+    invoke-static {p1, v0}, Lkat;->a(Landroid/content/Context;Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lfrw;
+
+    .line 1811
+    invoke-virtual {p2}, Lbju;->g()I
+
+    move-result v1
+
+    .line 1810
+    invoke-interface {v0, v1, v3}, Lfrw;->a(IZ)V
+
+    .line 1812
+    invoke-virtual {p2}, Lbju;->g()I
+
+    move-result v1
+
+    invoke-interface {v0, v1}, Lfrw;->a(I)Lfrx;
+
+    .line 1818
+    :cond_0
+    :goto_0
+    return-void
+
+    .line 2229
+    :cond_1
+    sget-boolean v0, Lfay;->e:Z
+
+    .line 1814
+    if-eqz v0, :cond_0
+
+    .line 1815
+    const-string v0, "SetActiveClientPeriodicTask successful: "
+
+    invoke-virtual {p2}, Lbju;->a()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/String;->length()I
+
+    move-result v2
+
+    if-eqz v2, :cond_2
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    goto :goto_0
+
+    :cond_2
+    new-instance v1, Ljava/lang/String;
+
+    invoke-direct {v1, v0}, Ljava/lang/String;-><init>(Ljava/lang/String;)V
+
+    goto :goto_0
+.end method

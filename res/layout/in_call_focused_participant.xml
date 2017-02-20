@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.hangouts.elane.FocusedParticipantAvatarView android:id="@id/in_call_focused_participant" android:background="@color/in_call_background" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/volume_circle" />
+    <ImageView android:layout_gravity="center" android:id="@id/in_call_main_avatar" android:background="@drawable/focused_avatar_background" android:layout_width="@dimen/main_avatar_diameter" android:layout_height="@dimen/main_avatar_diameter" />
+</com.google.android.apps.hangouts.elane.FocusedParticipantAvatarView>

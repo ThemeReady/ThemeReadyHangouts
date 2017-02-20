@@ -1,0 +1,79 @@
+11:1536 libvpx
+1558:936 x86inc
+2501:30135 GL
+32644:24389 SDL
+57042:47018 Xorg
+104070:1901 bzip2
+105994:1484 DynamicAnnotations
+107499:1144 Expat XML Parser
+108654:1088 giflib
+109752:19442 ICU4C
+129234:10695 Android Annotations Support Library
+139969:10695 Android Custom Tabs Support Library
+150699:10695 Android Design Support Library
+161431:10695 Android Graphics Support Library
+172163:10695 Android Multidex Support Library
+182896:10695 Android Compatibility Library v13
+193628:10695 Android Compatibility Library v4
+204360:10695 Android Compatibility Library v7
+215081:10220 Android Support Tools
+225317:16013 Android SDK
+241349:11358 Android Common
+252725:11358 AOSP ArraySet
+264094:27647 Cronet
+291762:10141 customtabsclient
+301919:11358 GifDrawable
+313287:4771 Glide
+318073:11358 Guava JDK5
+329449:10752 AOSP LatinIME
+340220:10173 libphonenumber
+350404:11358 mmslib
+361783:11358 AOSP PhotoViewer
+373159:1732 Protobuf Nano
+374911:11358 AOSP rastermill
+386285:11358 SVG Android
+397669:11358 Android Vcard library
+409043:11362 AOSP Volley
+420424:1096 Animal Sniffer
+421542:10173 Apache HttpClient
+431735:10173 Apache HttpCore
+441932:1473 Auth client library
+443421:11358 Google Auto
+454790:11358 census
+466170:22655 Checker Framework
+488836:11358 Dagger
+500210:11357 Error Prone
+511576:1472 gRPC
+513080:1091 Android Horizontal ListView
+514182:11358 J2ObjC
+525563:11358 FasterXML Jackson2
+536943:11358 FasterXML Jackson
+548326:11358 Apache Commons Codec
+559711:11358 Apache Commons Logging
+571081:11358 JSR 250
+582451:1602 JSR 305
+584065:11365 JSR 330
+595441:11358 OkHttp
+606808:11358 Okio
+618197:11343 YouTube Android Player API
+629548:11359 api
+640922:11362 Guava JDK7
+652296:4276 libjpeg
+656585:3304 libevent
+659900:1511 WebRTC
+661429:5545 libjpeg-turbo
+666995:1928 Opus audio codec
+668935:1614 libSRTP
+670565:1337 XCB library
+671913:1506 libyuv
+673434:1511 OpenMAX DL
+674959:9287 BoringSSL
+684255:3182 PCRE
+687458:1732 Protocol Buffers
+689198:1558 RE2
+690764:680 STL
+691460:243 tz database
+691712:1556 SCTP
+693276:731 UTF
+694016:2500 zlib
+696526:11357 ZXing

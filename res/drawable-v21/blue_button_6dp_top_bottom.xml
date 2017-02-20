@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/quantum_googblue900"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <inset android:insetTop="6.0dip" android:insetBottom="6.0dip">
+            <shape>
+                <solid android:color="@color/quantum_googblue700" />
+                <corners android:radius="@dimen/button_corner_radius" />
+            </shape>
+        </inset>
+    </item>
+</ripple>

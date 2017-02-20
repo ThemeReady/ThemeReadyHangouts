@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.hangouts.conversation.messagelist.impl.lastread.impl.JumpButton android:layout_gravity="center|top" android:id="@id/jump_to_last_read_button" android:visibility="invisible" android:layout_marginTop="@dimen/jump_button_top_margin" android:text="@string/jump_to_last_read_button" android:drawableLeft="@drawable/quantum_ic_arrow_upward_white_18" style="@style/JumpButtonStyle" />
+    <com.google.android.apps.hangouts.conversation.messagelist.impl.lastread.impl.JumpButton android:layout_gravity="bottom|center" android:id="@id/jump_to_latest_button" android:visibility="invisible" android:layout_marginBottom="@dimen/jump_button_bottom_margin" android:text="@string/jump_to_latest_button" android:drawableLeft="@drawable/quantum_ic_arrow_downward_white_18" style="@style/JumpButtonStyle" />
+    <com.google.android.apps.hangouts.conversation.messagelist.impl.lastread.impl.JumpButton android:layout_gravity="bottom|center" android:id="@id/jump_to_unread_button" android:visibility="invisible" android:layout_marginBottom="@dimen/jump_button_bottom_margin" android:drawableLeft="@drawable/quantum_ic_arrow_downward_white_18" style="@style/JumpButtonStyle" />
+</FrameLayout>
