@@ -8,6 +8,6 @@
         </shape>
     </item>
     <item>
-        <bitmap android:gravity="center" android:src="@drawable/quantum_ic_videocam_black_24" android:tint="@color/primary" />
+        <bitmap android:gravity="center" android:src="@drawable/quantum_ic_videocam_black_24" android:tint="@color/quantum_googgreen600" />
     </item>
 </layer-list>

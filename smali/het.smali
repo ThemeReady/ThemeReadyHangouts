@@ -2272,7 +2272,7 @@
 
 .field public static final ul:I = 0x7f0e0121
 
-.field public static final um:I = 0x7f0e011e
+.field public static final um:I = 0x7f0e00b2 # @color/incoming_conversation_bubble_background
 
 .field public static final un:I = 0x7f0e0123
 
