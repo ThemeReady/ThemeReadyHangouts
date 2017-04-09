@@ -2294,7 +2294,7 @@
 
 .field public static final ux:I = 0x7f0e00a2
 
-.field public static final uy:I = 0x7f0e011e
+.field public static final uy:I = 0x7f0e00b2 # @color/incoming_conversation_bubble_background
 
 .field public static final uz:I = 0x7f020481
 

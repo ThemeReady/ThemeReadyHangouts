@@ -188,7 +188,7 @@
 
     .prologue
     .line 45
-    const v0, 0x106000b
+    const v0, 0x7f0e00cf # @color/quantum_white_text
 
     return v0
 .end method

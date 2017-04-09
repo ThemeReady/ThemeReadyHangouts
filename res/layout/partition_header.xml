@@ -3,5 +3,5 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <Space android:id="@id/partition_space" android:layout_width="fill_parent" android:layout_height="@dimen/m_space" />
     <View android:id="@id/partition_divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="?android:dividerHeight" android:layout_marginTop="@dimen/m_space" />
-    <TextView android:textSize="14.0sp" android:textColor="?colorPrimaryDark" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/partition_header_title" android:padding="@dimen/l_space" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sans-serif-medium" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/quantum_googgreen800" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/partition_header_title" android:padding="@dimen/l_space" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sans-serif-medium" />
 </LinearLayout>
