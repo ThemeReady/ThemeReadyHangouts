@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/in_call_message_list_item_top_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/message_item_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/in_call_message_bubble_incoming_margin_inside" android:layout_marginRight="@dimen/in_call_message_bubble_margin_incoming_outside" android:baselineAligned="false" android:layout_marginStart="@dimen/in_call_message_bubble_incoming_margin_inside" android:layout_marginEnd="@dimen/in_call_message_bubble_margin_incoming_outside">
+        <TextView android:layout_gravity="start" android:id="@id/sender_name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/in_call_message_bubble_content_max_width" android:lineSpacingExtra="@dimen/in_call_message_bubble_text_line_spacing_extra" android:importantForAccessibility="no" style="@style/InCallMessage.Name" />
+        <com.google.android.apps.hangouts.views.WrapWidthTextView android:layout_gravity="start" android:id="@id/message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/in_call_message_bubble_content_max_width" android:singleLine="false" android:lineSpacingExtra="@dimen/in_call_message_bubble_text_line_spacing_extra" android:importantForAccessibility="no" style="@style/InCallMessage.Text" />
+    </LinearLayout>
+</FrameLayout>

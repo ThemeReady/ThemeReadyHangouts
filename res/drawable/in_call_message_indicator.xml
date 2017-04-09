@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/in_call_message_indicator_background" />
+    <size android:height="@dimen/in_call_message_indicator_height" android:width="@dimen/in_call_message_indicator_width" />
+</shape>

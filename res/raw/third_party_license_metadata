@@ -1,0 +1,81 @@
+11:1536 libvpx
+1558:936 x86inc
+2501:30135 GL
+32644:24389 SDL
+57042:47018 Xorg
+104070:1901 bzip2
+105994:1484 DynamicAnnotations
+107499:1144 Expat XML Parser
+108654:1088 giflib
+109752:19442 ICU4C
+129234:10695 Android Annotations Support Library
+139969:10695 Android Custom Tabs Support Library
+150699:10695 Android Design Support Library
+161431:10695 Android Graphics Support Library
+172163:10695 Android Multidex Support Library
+182894:10695 Android Percent Support Library
+193627:10695 Android Compatibility Library v13
+204359:10695 Android Compatibility Library v4
+215091:10695 Android Compatibility Library v7
+225812:10220 Android Support Tools
+236048:16013 Android SDK
+252080:11358 Android Common
+263456:11358 AOSP ArraySet
+274825:27647 Cronet
+302493:10141 customtabsclient
+312650:11358 GifDrawable
+324018:4771 Glide
+328797:11356 gsf
+340168:11358 Guava JDK5
+351544:10752 AOSP LatinIME
+362315:10173 libphonenumber
+372499:11358 mmslib
+383878:11358 AOSP PhotoViewer
+395254:1732 Protobuf Nano
+397006:11358 AOSP rastermill
+408380:11358 SVG Android
+419764:11358 Android Vcard library
+431138:11358 AOSP Volley
+442515:1096 Animal Sniffer
+443633:10173 Apache HttpClient
+453826:10173 Apache HttpCore
+464023:1473 Auth client library
+465512:11358 Google Auto
+476881:11358 census
+488261:22655 Checker Framework
+510927:11358 Dagger
+522301:11357 Error Prone
+533667:1472 gRPC
+535171:1091 Android Horizontal ListView
+536282:11358 instrumentation
+547651:11358 J2ObjC
+559032:11358 FasterXML Jackson2
+570412:11358 FasterXML Jackson
+581795:11358 Apache Commons Codec
+593180:11358 Apache Commons Logging
+604550:11358 JSR 250
+615920:1602 JSR 305
+617534:11365 JSR 330
+628910:11358 OkHttp
+640277:11358 Okio
+651666:11343 YouTube Android Player API
+663024:11362 Guava JDK7
+674398:4276 libjpeg
+678687:3304 libevent
+682002:1511 WebRTC
+683531:5545 libjpeg-turbo
+689097:1928 Opus audio codec
+691037:1614 libSRTP
+692667:1337 XCB library
+694015:1506 libyuv
+695536:1511 OpenMAX DL
+697061:9287 BoringSSL
+706357:3182 PCRE
+709560:1732 Protocol Buffers
+711300:1558 RE2
+712866:680 STL
+713562:243 tz database
+713814:1556 SCTP
+715378:731 UTF
+716118:2500 zlib
+718628:11357 ZXing

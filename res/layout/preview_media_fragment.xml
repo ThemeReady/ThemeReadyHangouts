@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/preview_media_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/previewed_image" android:background="@color/quantum_black_100" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@android:drawable/ic_menu_camera" android:scaleType="fitCenter" android:layout_centerInParent="true" android:importantForAccessibility="no" />
+    <VideoView android:id="@id/previewed_video" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:importantForAccessibility="no" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="@dimen/preview_media_fragment_layout_height" android:layout_marginTop="@dimen/preview_media_fragment_margin" android:layout_marginRight="@dimen/preview_media_fragment_margin" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <TextView android:textSize="@dimen/preview_media_text_size" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/multi_media_progress" android:background="@drawable/media_meta_text_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/preview_media_text_layout_height" android:importantForAccessibility="no" />
+        <TextView android:textSize="@dimen/preview_media_text_size" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/video_duration" android:background="@drawable/media_meta_text_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/preview_media_text_layout_height" android:importantForAccessibility="no" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/mention_candidate_avatar_padding_left" android:paddingTop="@dimen/mention_candidate_list_item_padding_top" android:paddingBottom="@dimen/mention_candidate_list_item_padding_bottom" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/mention_candidate_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.hangouts.views.AvatarView android:layout_gravity="center" android:id="@id/avatar_view" android:focusable="false" android:layout_width="@dimen/mention_candidate_avatar_diameter" android:layout_height="@dimen/mention_candidate_avatar_diameter" />
+    <TextView android:id="@id/name_text" android:paddingLeft="@dimen/mention_candidate_name_padding_left" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.87" style="@style/MentionCandidateName" />
+    <TextView android:id="@id/email_text" android:paddingLeft="@dimen/mention_candidate_name_padding_left" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.87" style="@style/MentionCandidateEmail" />
+</LinearLayout>

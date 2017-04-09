@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/sticker_view_pager_gradient_size">
+        <shape>
+            <gradient android:startColor="@color/hangout_sticker_view_pager_background_color_top" android:endColor="@color/quantum_black_divider" android:angle="90.0" />
+        </shape>
+    </item>
+</layer-list>

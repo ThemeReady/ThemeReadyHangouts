@@ -1,0 +1,180 @@
+.class public final Lmhg;
+.super Lpbz;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lpbz",
+        "<",
+        "Lmhg;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public a:Lnht;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 17026
+    invoke-direct {p0}, Lpbz;-><init>()V
+
+    .line 17027
+    invoke-direct {p0}, Lmhg;->d()Lmhg;
+
+    .line 17028
+    return-void
+.end method
+
+.method private b(Lpbv;)Lmhg;
+    .locals 1
+
+    .prologue
+    .line 17061
+    :cond_0
+    :goto_0
+    invoke-virtual {p1}, Lpbv;->a()I
+
+    move-result v0
+
+    .line 17062
+    sparse-switch v0, :sswitch_data_0
+
+    .line 17066
+    invoke-super {p0, p1, v0}, Lpbz;->a(Lpbv;I)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    .line 17067
+    :sswitch_0
+    return-object p0
+
+    .line 17072
+    :sswitch_1
+    iget-object v0, p0, Lmhg;->a:Lnht;
+
+    if-nez v0, :cond_1
+
+    .line 17073
+    new-instance v0, Lnht;
+
+    invoke-direct {v0}, Lnht;-><init>()V
+
+    iput-object v0, p0, Lmhg;->a:Lnht;
+
+    .line 17075
+    :cond_1
+    iget-object v0, p0, Lmhg;->a:Lnht;
+
+    invoke-virtual {p1, v0}, Lpbv;->a(Lpcg;)V
+
+    goto :goto_0
+
+    .line 17062
+    nop
+
+    :sswitch_data_0
+    .sparse-switch
+        0x0 -> :sswitch_0
+        0xa -> :sswitch_1
+    .end sparse-switch
+.end method
+
+.method private d()Lmhg;
+    .locals 1
+
+    .prologue
+    const/4 v0, 0x0
+
+    .line 17031
+    iput-object v0, p0, Lmhg;->a:Lnht;
+
+    .line 17032
+    iput-object v0, p0, Lmhg;->unknownFieldData:Lpcb;
+
+    .line 17033
+    const/4 v0, -0x1
+
+    iput v0, p0, Lmhg;->cachedSize:I
+
+    .line 17034
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public synthetic a(Lpbv;)Lpcg;
+    .locals 1
+
+    .prologue
+    .line 17004
+    invoke-direct {p0, p1}, Lmhg;->b(Lpbv;)Lmhg;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public a(Lpbw;)V
+    .locals 2
+
+    .prologue
+    .line 17040
+    iget-object v0, p0, Lmhg;->a:Lnht;
+
+    if-eqz v0, :cond_0
+
+    .line 17041
+    const/4 v0, 0x1
+
+    iget-object v1, p0, Lmhg;->a:Lnht;
+
+    invoke-virtual {p1, v0, v1}, Lpbw;->b(ILpcg;)V
+
+    .line 17043
+    :cond_0
+    invoke-super {p0, p1}, Lpbz;->a(Lpbw;)V
+
+    .line 17044
+    return-void
+.end method
+
+.method protected b()I
+    .locals 3
+
+    .prologue
+    .line 17048
+    invoke-super {p0}, Lpbz;->b()I
+
+    move-result v0
+
+    .line 17049
+    iget-object v1, p0, Lmhg;->a:Lnht;
+
+    if-eqz v1, :cond_0
+
+    .line 17050
+    const/4 v1, 0x1
+
+    iget-object v2, p0, Lmhg;->a:Lnht;
+
+    .line 17051
+    invoke-static {v1, v2}, Lpbw;->d(ILpcg;)I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    .line 17053
+    :cond_0
+    return v0
+.end method

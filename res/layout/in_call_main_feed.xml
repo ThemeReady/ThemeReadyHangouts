@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.hangouts.elane.MainFeedViewController android:id="@id/in_call_main_feed" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/a11y_announcement_call_control_available"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/in_call_focused_participant" />
+</com.google.android.apps.hangouts.elane.MainFeedViewController>

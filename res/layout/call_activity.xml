@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/in_call_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+    <FrameLayout android:id="@id/in_call_appbar" android:fitsSystemWindows="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <View android:id="@id/in_call_statusbar_underlay" android:background="@color/in_call_action_bar_background_color_top" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <android.support.v7.widget.Toolbar android:id="@id/hangouts_toolbar" android:background="@drawable/in_call_action_bar_gradient" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:contentInsetStart="@dimen/content_inset" app:contentInsetLeft="@dimen/content_inset" app:popupTheme="?actionBarPopupTheme" app:titleTextAppearance="@style/Toolbar.TitleText" app:theme="@style/InCallActionBarStyle" style="?attr/toolbarStyle" />
+    </FrameLayout>
+</RelativeLayout>

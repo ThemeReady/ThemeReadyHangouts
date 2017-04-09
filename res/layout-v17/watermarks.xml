@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/watermarks" android:paddingLeft="@dimen/l_space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/watermark_bottom_margin" android:paddingStart="@dimen/l_space"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
