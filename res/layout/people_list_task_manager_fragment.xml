@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/people_list_task_bar_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top" android:layout_gravity="top" android:orientation="vertical" android:id="@id/people_list_task_bar" android:background="@color/application_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="24.0dip" />
+    <View android:id="@id/task_manager_separator" android:background="@color/material_grey_300" android:layout_width="fill_parent" android:layout_height="2.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

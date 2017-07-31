@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/m_space" android:paddingBottom="@dimen/m_space" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/avatar_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants">
+        <com.google.android.apps.hangouts.views.AvatarView android:id="@id/avatar" android:focusable="false" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/l_space" android:layout_marginRight="@dimen/l_space" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/person_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/l_space" style="@style/PersonViewText.Primary" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/person_email_or_phone_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/person_domain_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/m_space" android:src="@drawable/quantum_ic_business_grey600_18" />
+            <TextView android:textColor="@color/quantum_black_text" android:id="@id/person_email_or_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/l_space" style="@style/PersonViewText.Secondary" />
+        </LinearLayout>
+        <TextView android:textStyle="italic" android:id="@id/person_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/l_space" style="@style/PersonViewText.Secondary" />
+        <TextView android:id="@id/person_last_seen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/l_space" style="@style/PersonViewText.Secondary" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/more_icon_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/l_space" android:src="@drawable/quantum_ic_more_vert_grey600_24" android:contentDescription="@string/conversation_people_and_options_participant_menu" />
+    </FrameLayout>
+</LinearLayout>

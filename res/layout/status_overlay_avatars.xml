@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:hangouts="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/status_overlay_avatar_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/status_overlay_avatar_row_top_padding">
+        <com.google.android.apps.hangouts.views.AvatarView android:id="@id/avatar_view_1" android:visibility="gone" android:layout_width="@dimen/status_overlay_avatar_diameter" android:layout_height="@dimen/status_overlay_avatar_diameter" hangouts:avatarViewSize="medium" />
+        <com.google.android.apps.hangouts.views.AvatarView android:id="@id/avatar_view_2" hangouts:avatarViewSize="medium" style="@style/StatusOverlayAvatarStyle" />
+        <com.google.android.apps.hangouts.views.AvatarView android:id="@id/avatar_view_3" hangouts:avatarViewSize="medium" style="@style/StatusOverlayAvatarStyle" />
+        <com.google.android.apps.hangouts.views.AvatarView android:id="@id/avatar_view_4" hangouts:avatarViewSize="medium" style="@style/StatusOverlayAvatarStyle" />
+        <TextView android:textSize="@dimen/status_overlay_overflow_number_text_size" android:textColor="@color/quantum_white_text" android:gravity="center" android:id="@id/overflow_number_view" android:background="@drawable/status_overlay_overflow_number_view_background" style="@style/StatusOverlayAvatarStyle" />
+    </LinearLayout>
+</merge>

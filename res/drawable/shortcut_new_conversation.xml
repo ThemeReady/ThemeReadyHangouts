@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/shortcut_padding" android:top="@dimen/shortcut_padding" android:right="@dimen/shortcut_padding" android:bottom="@dimen/shortcut_padding">
+        <shape android:shape="oval">
+            <size android:height="@dimen/shortcut_diameter" android:width="@dimen/shortcut_diameter" />
+            <solid android:color="@color/quantum_grey100" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/quantum_ic_chat_white_24" android:tint="@color/primary" />
+    </item>
+</layer-list>

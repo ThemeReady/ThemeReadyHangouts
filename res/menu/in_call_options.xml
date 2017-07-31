@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/quantum_ic_volume_up_white_24" android:id="@id/in_call_audio_route" android:title="@string/in_call_audio_route_speaker" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_switch_camera_white_24" android:id="@id/in_call_video_source" android:title="@string/in_call_video_source_front" app:showAsAction="always" />
+    <item android:icon="@drawable/quantum_ic_person_add_white_24" android:id="@id/in_call_invite" android:title="@string/realtimechat_conversation_invite_menu_item_text" app:showAsAction="never" />
+</menu>

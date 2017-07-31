@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/in_call_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/in_call_main_feed" />
+    <include layout="@layout/status_overlay" />
+    <com.google.android.apps.hangouts.hangout.DebugOverlayTextView android:textAppearance="?android:textAppearanceMediumInverse" android:textColor="@color/in_call_debug_foreground" android:id="@id/in_call_debug_overlay" android:background="@color/in_call_debug_background" android:paddingLeft="@dimen/in_call_debug_padding_other" android:paddingTop="@dimen/in_call_debug_padding_top" android:paddingRight="@dimen/in_call_debug_padding_other" android:paddingBottom="@dimen/in_call_debug_padding_other" android:visibility="gone" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <FrameLayout android:id="@id/in_call_chat_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/in_call_bottom_controls" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/in_call_bottom_controls" android:paddingTop="@dimen/in_call_filmstrip_pinned_border_width" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.google.android.apps.hangouts.elane.FilmstripViewController android:id="@id/in_call_filmstrip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/in_call_filmstrip_margin" android:layout_marginRight="@dimen/in_call_filmstrip_margin" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        <include layout="@layout/in_call_self_menu" />
+    </RelativeLayout>
+</RelativeLayout>

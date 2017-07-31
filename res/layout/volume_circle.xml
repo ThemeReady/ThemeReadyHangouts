@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.hangouts.elane.VolumeCircle android:layout_gravity="center" android:id="@id/volume_circle" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/volume_solid_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/volume_solid_circle" android:alpha="@dimen/volume_circle_init_alpha" />
+    <ImageView android:layout_gravity="center" android:id="@id/ping_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ping_circle" android:alpha="@dimen/ping_circle_init_alpha" />
+</com.google.android.apps.hangouts.elane.VolumeCircle>

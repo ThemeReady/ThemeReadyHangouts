@@ -1,0 +1,86 @@
+11:1536 libvpx
+1558:936 x86inc
+2501:30206 GL
+32716:47018 Xorg
+79748:1732 nanoproto
+81490:1901 bzip2
+83400:11358 cctz
+94781:1484 DynamicAnnotations
+96286:1144 Expat XML Parser
+97441:1088 giflib
+98539:19442 ICU4C
+118021:10695 Android Annotations Support Library
+128751:10695 Android Compat Support Library
+139482:10695 Android Core UI Support Library
+150216:10691 Android Core Utils Support Library
+160947:10695 Android Custom Tabs Support Library
+171677:10695 Android Design Support Library
+182410:10695 Android Fragments Support Library
+193142:10695 Android Graphics Support Library
+203878:10691 Android Media Compat Support Library
+214606:10695 Android Multidex Support Library
+225340:10691 Android Transition Support Library
+236069:10695 Android Compatibility Library v13
+246801:10695 Android Compatibility Library v4
+257533:10695 Android Compatibility Library v7
+268254:10220 Android Support Tools
+278490:16013 Android SDK
+294522:11358 Android Common
+305898:11358 AOSP ArraySet
+317267:27435 Cronet
+344723:10141 customtabsclient
+354880:11358 GifDrawable
+366248:4771 Glide
+371034:11358 Guava JDK5
+382410:10752 AOSP LatinIME
+393181:10173 libphonenumber
+403365:11358 mmslib
+414744:11358 AOSP PhotoViewer
+426120:1732 Protobuf Nano
+427872:11358 AOSP rastermill
+439246:11358 SVG Android
+450630:11358 Android Vcard library
+461999:11358 Volley
+473376:1096 Animal Sniffer
+474494:10173 Apache HttpClient
+484687:10173 Apache HttpCore
+494884:1473 Auth client library
+496373:11358 Google Auto
+507753:22655 Checker Framework
+530419:11358 Dagger
+541793:11357 Error Prone
+553159:1472 gRPC
+554663:1091 Android Horizontal ListView
+555774:11358 instrumentation
+567143:11358 J2ObjC
+578524:11358 FasterXML Jackson2
+589904:11358 FasterXML Jackson
+601287:11358 Apache Commons Codec
+612672:11358 Apache Commons Logging
+624042:11358 JSR 250
+635412:1602 JSR 305
+637026:11365 JSR 330
+648402:11358 OkHttp
+659769:11358 Okio
+671158:11343 YouTube Android Player API
+682530:11358 material_components
+682530:11358 lib
+693903:11362 Guava JDK7
+705277:4276 libjpeg
+709566:4528 libevent
+714105:1511 WebRTC
+715634:5545 libjpeg-turbo
+721200:1928 Opus audio codec
+723140:1614 libSRTP
+724770:1337 XCB library
+726118:1506 libyuv
+727639:1511 OpenMAX DL
+729164:9287 BoringSSL
+738460:3182 PCRE
+741663:1732 Protocol Buffers
+743403:1558 RE2
+744969:680 STL
+745665:243 tz database
+745917:1556 SCTP
+747481:731 UTF
+748221:2500 zlib

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/shortcut_new_conversation" android:enabled="true">
+        <intent android:action="com.google.android.apps.hangouts.shortcuts.new_conversation" android:targetClass=".shortcuts.impl.LauncherShortcutActivity" />
+    </shortcut>
+    <shortcut android:icon="@drawable/shortcut_video_call" android:enabled="true">
+        <intent android:action="com.google.android.apps.hangouts.shortcuts.new_video_call" android:targetClass=".shortcuts.impl.LauncherShortcutActivity" />
+    </shortcut>
+    <shortcut android:icon="@drawable/shortcut_audio_call" android:enabled="true">
+        <intent android:action="com.google.android.apps.hangouts.shortcuts.new_voice_call" android:targetClass=".shortcuts.impl.LauncherShortcutActivity" />
+    </shortcut>
+</shortcuts>
