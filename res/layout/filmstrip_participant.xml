@@ -2,7 +2,7 @@
 <com.google.android.apps.hangouts.elane.FilmstripParticipantView android:background="@color/in_call_filmstrip_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:translationY="@dimen/in_call_filmstrip_slide_offset"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <FrameLayout android:id="@id/in_call_participant_videohost" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
-        <FrameLayout android:id="@id/in_call_participant_avatar" android:background="@color/quantum_black_100" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/in_call_participant_avatar" android:background="@color/solid_black" android:layout_width="fill_parent" android:layout_height="fill_parent">
             <ImageView android:id="@id/in_call_participant_avatar_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/default_avatar_large" android:scaleType="centerCrop" />
         </FrameLayout>
     </FrameLayout>

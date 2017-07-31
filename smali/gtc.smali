@@ -400,12 +400,20 @@
 .end method
 
 .method protected a(Z)V
-    .locals 4
+    .locals 5
 
     .prologue
     const/4 v2, 0x0
 
     .line 33
+    invoke-virtual {p0}, Lgtc;->getContext()Landroid/content/Context;
+
+    move-result-object v4
+
+    invoke-virtual {v4}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v4
+	
     sget v0, Lqew;->Y:I
 
     invoke-virtual {p0, v0}, Lgtc;->findViewById(I)Landroid/view/View;
@@ -456,7 +464,11 @@
 
     if-eqz v1, :cond_3
 
-    const/high16 v1, -0x34000000    # -3.3554432E7f
+    const v1, 0x7f0c012e # @color/quantum_black_secondary_text
+
+    invoke-virtual {v4, v1}, Landroid/content/res/Resources;->getColor(I)I
+	
+    move-result v1
 
     :goto_1
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
@@ -466,7 +478,11 @@
 
     if-eqz v0, :cond_1
 
-    const/4 v2, -0x1
+    const v2, 0x7f0c006a # @color/default_bg
+
+    invoke-virtual {v4, v2}, Landroid/content/res/Resources;->getColor(I)I
+
+    move-result v2
 
     :cond_1
     invoke-virtual {p0, v2}, Lgtc;->setBackgroundColor(I)V
@@ -482,7 +498,11 @@
 
     .line 39
     :cond_3
-    const/high16 v1, -0x66000000
+    const v1, 0x7f0c012f # @color/quantum_black_text
+
+    invoke-virtual {v4, v1}, Landroid/content/res/Resources;->getColor(I)I
+
+    move-result v1
 
     goto :goto_1
 .end method

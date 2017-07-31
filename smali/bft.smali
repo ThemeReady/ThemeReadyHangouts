@@ -217,7 +217,7 @@
 
     move-result-object v4
 
-    const v5, 0x106000b
+    const v5, 0x7f0c0265 # @color/quantum_white_text
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 

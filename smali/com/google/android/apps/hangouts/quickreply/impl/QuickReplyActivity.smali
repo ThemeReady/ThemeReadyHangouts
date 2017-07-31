@@ -396,7 +396,7 @@
 
     move-result-object v2
 
-    const v3, 0x106000b
+    const v3, 0x7f0c00c5 # @color/incoming_conversation_bubble_background
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
